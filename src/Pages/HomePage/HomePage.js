@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -11,10 +11,10 @@ const HomePage = () => {
           <button>About</button>
           <button>Courses</button>
           <button>Contact</button>
-          <button className="signup">Sign Up</button>
-          {}
+          {/* Changed Sign Up button into Link */}
+          <Link to="/signup" className="navbar-btn signup-link">Sign Up</Link>
           <Link to="/login" className="navbar-btn login-link">Log In</Link>
-           </div>
+        </div>
       </nav>
 
       <section className="style">

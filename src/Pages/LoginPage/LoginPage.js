@@ -22,7 +22,7 @@ const LoginPage = () => {
           <input type="password" id="password" placeholder="Enter your password" required />
 
           <div className="forgot-password">
-            <a href="#">Forgot Password?</a>
+            <a href="/#">Forgot Password?</a>
           </div>
           <button type="submit" className="login-button">Login</button>
         </form>

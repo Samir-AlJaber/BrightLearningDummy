@@ -13,10 +13,10 @@ const HomePage = () => {
           <button>About</button>
           <button>Courses</button>
           <button>Contact</button>
-          <button className="navbar-btn signup-link" onClick={() => navigate("/signup")}>
+          <button className="navbar-btn.signup-link" onClick={() => navigate("/signup")}>
             Sign Up
           </button>
-          <button className="navbar-btn login-link" onClick={() => navigate("/login")}>
+          <button className="navbar-btn.login-link" onClick={() => navigate("/login")}>
             Log In
           </button>
         </div>

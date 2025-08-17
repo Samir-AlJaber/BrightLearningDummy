@@ -58,6 +58,23 @@
   transform: translateY(-2px);
 }
 
+.navbar-btn.login-link {
+  background-color: white;
+  color: #2563eb;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.navbar-btn.login-link:hover {
+  background-color: #1e293b;
+  color: white;
+  transform: translateY(-2px);
+}
+
 .style {
   text-align: center;
   padding: 5rem 2rem;

@@ -13,8 +13,6 @@ const HomePage = () => {
           <button>About</button>
           <button>Courses</button>
           <button>Contact</button>
-
-          {/* Updated Sign Up & Log In buttons */}
           <button className="navbar-btn signup-link" onClick={() => navigate("/signup")}>
             Sign Up
           </button>

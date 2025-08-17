@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -11,8 +12,9 @@ const HomePage = () => {
           <button>Courses</button>
           <button>Contact</button>
           <button className="signup">Sign Up</button>
-          <button className="login">Log In</button>
-        </div>
+          {}
+          <Link to="/login" className="navbar-btn login-link">Log In</Link>
+           </div>
       </nav>
 
       <section className="style">

@@ -76,7 +76,6 @@
   margin-bottom: 2rem;
   opacity: 0.9;
 }
-
 .class-btn button {
   padding: 0.8rem 1.8rem;
   margin: 0.5rem;
@@ -218,9 +217,14 @@
 .socials span:hover {
   transform: scale(1.2);
 }
+.navbar-links .nav-link-button {
+  display: inline-block; /* or flex if needed */
+  text-decoration: none;
+}
 
 .footer p {
   margin-top: 1rem;
   font-size: 0.9rem;
   color: #94a3b8;
 }
+

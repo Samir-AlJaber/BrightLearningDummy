@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import "./signup.css";   // ছোট হাতের নাম ব্যবহার করো
-import { Link } from "react-router-dom";
+import "./signup.css";
+import { useNavigate } from "react-router-dom";
 
 const SignUpPage = () => {
+
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -60,7 +63,9 @@ const SignUpPage = () => {
           <button type="submit" className="signup-btn">Sign Up</button>
         </form>
         <p className="login-link">
-          Already have an account? <Link to="/login">Log In</Link>
+          Already have an account? <button className="navbar-btn.login-link" onClick={() => navigate("/login")}>
+            Log In
+          </button>
         </p>
       </div>
     </div>

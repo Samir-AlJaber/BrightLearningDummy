@@ -28,9 +28,9 @@ const HomePage = () => {
           Discover tailored lessons for your classes and empower your academic journey with expert resources.
         </p>
         <div className="class-btn">
-          <button className="class68-btn">Class 6-8</button>
-          <button className="class910-btn">Class 9-10</button>
-          <button className="class1112-btn">Class 11-12</button>
+          <button className="class68-btn" onClick={() => navigate("/signup")}>Class 6-8</button>
+          <button className="class910-btn" onClick={() => navigate("/signup")}>Class 9-10</button>
+          <button className="class1112-btn" onClick={() => navigate("/signup")}>Class 11-12</button>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ const HomePage = () => {
         <p>
           Join Bright Learning today and unlock a world of knowledge. Stay motivated and never stop learning.
         </p>
-        <button className="start-btn">Start Now 🚀</button>
+        <button className="start-btn" onClick={() => navigate("/signup")}>Start Now 🚀</button>
       </section>
 
       <footer className="footer">

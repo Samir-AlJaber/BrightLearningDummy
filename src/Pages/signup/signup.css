@@ -22,7 +22,7 @@
   color: #1e293b;
 }
 
-.signup-box p {
+.signup-box h6 {
   margin-bottom: 1.5rem;
   color: #475569;
   font-size: 0.95rem;
@@ -66,11 +66,11 @@
 .login-link {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: #010305;
+  color: #000408;
 }
 
 .login-link a {
-  color: #020711;
+  color: #2563eb;
   text-decoration: none;
   font-weight: 600;
 }

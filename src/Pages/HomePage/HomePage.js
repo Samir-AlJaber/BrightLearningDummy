@@ -9,14 +9,14 @@ const HomePage = () => {
     <div className="main">
       <nav className="navbar">
         <div className="navbar-logo">Bright Learning</div>
-        <div className="navbar-links">
+        <div className="class-btn1">
           <button>About</button>
           <button>Courses</button>
           <button>Contact</button>
-          <button className="navbar-btn.signup-link" onClick={() => navigate("/signup")}>
+          <button onClick={() => navigate("/signup")}>
             Sign Up
           </button>
-          <button className="navbar-btn.login-link" onClick={() => navigate("/login")}>
+          <button onClick={() => navigate("/login")}>
             Log In
           </button>
         </div>
@@ -28,19 +28,19 @@ const HomePage = () => {
           Discover tailored lessons for your classes and empower your academic journey with expert resources.
         </p>
         <div className="class-btn">
-          <button className="class68-btn" onClick={() => navigate("/signup")}>Class 6-8</button>
-          <button className="class910-btn" onClick={() => navigate("/signup")}>Class 9-10</button>
-          <button className="class1112-btn" onClick={() => navigate("/signup")}>Class 11-12</button>
+          <button onClick={() => navigate("/signup")}>Class 6-8</button>
+          <button onClick={() => navigate("/signup")}>Class 9-10</button>
+          <button onClick={() => navigate("/signup")}>Class 11-12</button>
         </div>
       </section>
 
       <section className="topics">
         <h2>Courses & Topics</h2>
         <h3>Start your journey, strengthen your foundation</h3>
-        <p>
+        <h4>
           Bright Learning provides complete guidance with video tutorials, downloadable notes, 
           and one-to-one doubt solving.
-        </p>
+        </h4>
         <div className="topic-select">
           <div className="select">
             <h4>Explore Topics</h4>
@@ -48,7 +48,7 @@ const HomePage = () => {
               Browse your subjects and find structured notes and tutorials crafted for your class.
             </p>
           </div>
-          <div className="select highlight">
+          <div className="select">
             <h4>Need Help?</h4>
             <p>
               Connect with admins through our integrated Q&A system. Get timely answers and stay ahead.
@@ -65,9 +65,9 @@ const HomePage = () => {
 
       <section className="final-btn">
         <h2>Ready to Expand Your Learning?</h2>
-        <p>
+        <h4>
           Join Bright Learning today and unlock a world of knowledge. Stay motivated and never stop learning.
-        </p>
+        </h4>
         <button className="start-btn" onClick={() => navigate("/signup")}>Start Now 🚀</button>
       </section>
 
